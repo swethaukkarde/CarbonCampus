@@ -1,0 +1,6 @@
+[
+  { "id": 1, "building": "LC2", "floor": 3, "timestamp": "2026-06-01T19:15:00", "status": "occupied", "confirmedBy": "Security Guard - Rajan", "note": "Students in computer lab, project work", "modelLearned": true },
+  { "id": 2, "building": "LC1", "floor": 2, "timestamp": "2026-06-02T20:00:00", "status": "empty", "confirmedBy": "Prof. Nair", "note": "All classes done, lights left on", "modelLearned": true },
+  { "id": 3, "building": "ACT", "floor": 1, "timestamp": "2026-06-03T19:30:00", "status": "occupied", "confirmedBy": "Student Council", "note": "Hackathon prep session", "modelLearned": true },
+  { "id": 4, "building": "LC2", "floor": 5, "timestamp": "2026-06-04T18:45:00", "status": "empty", "confirmedBy": "Security Guard - Mohan", "note": "Empty but AC running", "modelLearned": true }
+]

@@ -1,0 +1,15 @@
+{
+  "campus": "Alliance University, Bengaluru",
+  "semester": "Even Semester 2026",
+  "generatedAt": "2026-06-05T08:09:22.002Z",
+  "totalBuildings": 6,
+  "totalRooms": 171,
+  "totalWasteRupees": 319910,
+  "totalWasteKwh": 39988.6,
+  "totalCo2Kg": 32791,
+  "treesEquivalent": 1562,
+  "anomaliesDetected": 1,
+  "highSeverityBuildings": ["LC2 Block"],
+  "electricityRatePerUnit": 8,
+  "location": { "city": "Bengaluru", "lat": 12.9716, "lng": 77.5946 }
+}

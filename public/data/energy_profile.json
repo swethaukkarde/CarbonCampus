@@ -1,0 +1,86 @@
+[
+  {
+    "buildingId": "LC1", "buildingName": "LC1 Block", "totalRooms": 30,
+    "avgOccupiedHoursPerDay": 5.7, "emptyHoursPerDay": 6.3,
+    "totalWasteKwhPerDay": 83.98, "semesterWasteKwh": 7558.2,
+    "semesterWasteRupees": 60466, "co2KgPerSemester": 6198, "treesEquivalent": 295,
+    "energyScore": 78, "wasteSeverity": "MEDIUM", "color": "orange",
+    "recommendedAction": "Enforce lights-off policy after 5pm in unused classrooms",
+    "expectedSavingsRupees": 18000, "expectedCo2ReductionKg": 1476,
+    "ticketRaised": false,
+    "anomaly": { "detected": false },
+    "coordinates": { "x": 30, "y": 40 },
+    "description": "Primary lecture halls for engineering and CS departments"
+  },
+  {
+    "buildingId": "LC2", "buildingName": "LC2 Block", "totalRooms": 105,
+    "avgOccupiedHoursPerDay": 6.5, "emptyHoursPerDay": 5.5,
+    "totalWasteKwhPerDay": 318.78, "semesterWasteKwh": 28690.2,
+    "semesterWasteRupees": 229522, "co2KgPerSemester": 23526, "treesEquivalent": 1120,
+    "energyScore": 52, "wasteSeverity": "HIGH", "color": "red",
+    "recommendedAction": "Change AC shutdown schedule from 8pm → 6pm on all floors",
+    "expectedSavingsRupees": 50400, "expectedCo2ReductionKg": 4128,
+    "ticketRaised": true,
+    "anomaly": {
+      "detected": true, "day": "Friday", "timeSlot": "18:00-21:00",
+      "expectedDraw": "Minimal (0 classes scheduled)",
+      "estimatedActualDraw": "246.3 kWh", "wasteThisWeek": 4200, "severity": "HIGH",
+      "description": "LC2 Block consumed near-peak energy on Friday 6pm–9pm despite zero scheduled classes. ACs and lights not switched off after last session.",
+      "suggestedAction": "Schedule automated AC shutoff at 6:30pm Fridays. Estimated weekly saving: ₹4,200"
+    },
+    "coordinates": { "x": 60, "y": 40 },
+    "description": "Largest academic block — all B.Tech programmes"
+  },
+  {
+    "buildingId": "LIB", "buildingName": "Library Block", "totalRooms": 12,
+    "avgOccupiedHoursPerDay": 9, "emptyHoursPerDay": 3,
+    "totalWasteKwhPerDay": 3, "semesterWasteKwh": 270,
+    "semesterWasteRupees": 2160, "co2KgPerSemester": 221, "treesEquivalent": 11,
+    "energyScore": 84, "wasteSeverity": "LOW", "color": "green",
+    "recommendedAction": "Install motion sensors in reading rooms to auto-dim lights",
+    "expectedSavingsRupees": 800, "expectedCo2ReductionKg": 65,
+    "ticketRaised": false,
+    "anomaly": { "detected": false },
+    "coordinates": { "x": 45, "y": 20 },
+    "description": "Central library — open till 9pm on weekdays"
+  },
+  {
+    "buildingId": "EXAM", "buildingName": "Exam Block", "totalRooms": 8,
+    "avgOccupiedHoursPerDay": 2.2, "emptyHoursPerDay": 9.8,
+    "totalWasteKwhPerDay": 26.08, "semesterWasteKwh": 2347,
+    "semesterWasteRupees": 18776, "co2KgPerSemester": 1925, "treesEquivalent": 92,
+    "energyScore": 91, "wasteSeverity": "LOW", "color": "green",
+    "recommendedAction": "Keep current schedule. Minimal optimisation needed.",
+    "expectedSavingsRupees": 2000, "expectedCo2ReductionKg": 164,
+    "ticketRaised": false,
+    "anomaly": { "detected": false },
+    "coordinates": { "x": 75, "y": 25 },
+    "description": "Examination hall and administrative offices"
+  },
+  {
+    "buildingId": "ACT", "buildingName": "Activity Center", "totalRooms": 10,
+    "avgOccupiedHoursPerDay": 2, "emptyHoursPerDay": 10,
+    "totalWasteKwhPerDay": 12.48, "semesterWasteKwh": 1123.2,
+    "semesterWasteRupees": 8986, "co2KgPerSemester": 921, "treesEquivalent": 44,
+    "energyScore": 67, "wasteSeverity": "MEDIUM", "color": "orange",
+    "recommendedAction": "Pre-book auditorium slots; auto-shutoff HVAC 30 min post-event",
+    "expectedSavingsRupees": 3200, "expectedCo2ReductionKg": 262,
+    "ticketRaised": false,
+    "anomaly": { "detected": false },
+    "coordinates": { "x": 20, "y": 65 },
+    "description": "Auditorium, seminar halls, student club rooms"
+  },
+  {
+    "buildingId": "FOOD", "buildingName": "Food Court & Aromas", "totalRooms": 6,
+    "avgOccupiedHoursPerDay": 10, "emptyHoursPerDay": 2,
+    "totalWasteKwhPerDay": 0, "semesterWasteKwh": 0,
+    "semesterWasteRupees": 0, "co2KgPerSemester": 0, "treesEquivalent": 0,
+    "energyScore": 72, "wasteSeverity": "MEDIUM", "color": "orange",
+    "recommendedAction": "Install variable-speed exhaust fans; reduce lighting after 9pm",
+    "expectedSavingsRupees": 5000, "expectedCo2ReductionKg": 410,
+    "ticketRaised": false,
+    "anomaly": { "detected": false },
+    "coordinates": { "x": 50, "y": 70 },
+    "description": "Canteen, cafe, and campus store — high evening usage"
+  }
+]

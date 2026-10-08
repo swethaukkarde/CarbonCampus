@@ -1,0 +1,11 @@
+[
+  { "week": "Week 1", "date": "2026-04-10", "totalWasteRupees": 26929, "totalWasteKwh": 3638 },
+  { "week": "Week 2", "date": "2026-04-17", "totalWasteRupees": 30133, "totalWasteKwh": 3977 },
+  { "week": "Week 3", "date": "2026-04-24", "totalWasteRupees": 28685, "totalWasteKwh": 3753 },
+  { "week": "Week 4", "date": "2026-05-01", "totalWasteRupees": 30388, "totalWasteKwh": 3769 },
+  { "week": "Week 5", "date": "2026-05-08", "totalWasteRupees": 27438, "totalWasteKwh": 3796 },
+  { "week": "Week 6", "date": "2026-05-15", "totalWasteRupees": 29614, "totalWasteKwh": 3774 },
+  { "week": "Week 7", "date": "2026-05-22", "totalWasteRupees": 28959, "totalWasteKwh": 3975 },
+  { "week": "Week 8", "date": "2026-05-29", "totalWasteRupees": 27404, "totalWasteKwh": 3511 },
+  { "week": "Week 9", "date": "2026-06-05", "totalWasteRupees": 29167, "totalWasteKwh": 3905 }
+]

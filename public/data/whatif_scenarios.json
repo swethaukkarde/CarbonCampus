@@ -1,0 +1,6 @@
+[
+  { "id": 1, "scenario": "Turn off LC2 ACs after 6pm", "building": "LC2", "annualSavings": 50400, "co2Reduction": 330, "feasibility": "Easy", "description": "Schedule automated shutoff for all 105 ACs at 6pm daily. Affects floors 1–7." },
+  { "id": 2, "scenario": "Consolidate Friday classes into LC1 only", "building": "LC2", "annualSavings": 28800, "co2Reduction": 189, "feasibility": "Medium", "description": "Reschedule all Friday lectures to LC1 Block. Keep LC2 fully powered down." },
+  { "id": 3, "scenario": "Close LC2 during semester break (30 days)", "building": "LC2", "annualSavings": 47333, "co2Reduction": 310, "feasibility": "Easy", "description": "Full shutdown of LC2 during inter-semester break. Estimated 30 days per year." },
+  { "id": 4, "scenario": "Shift computer labs to 10am–3pm solar peak hours", "building": "LC1", "annualSavings": 15600, "co2Reduction": 102, "feasibility": "Hard", "description": "Reschedule all computer lab sessions to solar peak hours to maximise renewable offset." }
+]
